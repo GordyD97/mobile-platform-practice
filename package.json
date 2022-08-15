@@ -1,0 +1,24 @@
+{
+  "name": "mobile-platform-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GordyD97/mobile-platform-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GordyD97/mobile-platform-practice/issues"
+  },
+  "homepage": "https://github.com/GordyD97/mobile-platform-practice#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.6"
+  }
+}
